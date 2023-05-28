@@ -1,6 +1,6 @@
-## Book Management System
+# Book Management System
 
-### Requirements:
+## Requirements:
 
 **Backend:**
 
@@ -29,6 +29,9 @@
 - Implement pagination or infinite scrolling for the book list.
 - Add search and filtering capabilities to the book list.
 - Implement authentication and authorization using a library like JWT or OAuth.
+
+
+## Project Structure and Technologies used
 
 This is an app with monolithic architecture. Basically there are 2 main folders:
 
