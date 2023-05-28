@@ -20,8 +20,7 @@ const authLink = setContext((_, { headers }) => {
   return {
     headers: {
       ...headers,
-      authorization:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBsaWNhdGlvbiI6ImJvb2stbWFuYWdlbWVudC1zeXN0ZW0iLCJpYXQiOjE1MTYyMzkwMjJ9.iT51THicnwBUtLF3ELeDIa7D7BQy7rpBIMIf8NPKwCQ",
+      authorization: process.env.REACT_APP_TOKEN,
     },
   };
 });
