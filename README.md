@@ -74,7 +74,7 @@ Start the server:
 npm run dev.server
 ```
 
-Install CRA dependencies:
+In a new terminal window, install CRA dependencies:
 
 ```
 cd client
